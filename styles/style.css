@@ -1,0 +1,29 @@
+.pr-10 {
+    padding-right: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.btn-edit::after {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../design/icon-edit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.btn-user::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../design/person-fill-add.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-right: 10px;
+}
